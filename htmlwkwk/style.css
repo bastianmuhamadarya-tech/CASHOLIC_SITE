@@ -11,6 +11,7 @@ body {
 }
 
 .ul-navbar {
+    size: 8vh;
     width: 100%;
     height: 50px;
     display: flex;
@@ -21,6 +22,7 @@ body {
 }
 
 .li-navbar {
+    size: 8vh;
     list-style-type: none;
     color: rgb(209, 209, 209);
     margin: 3px;
@@ -29,12 +31,12 @@ body {
 }
 
 .li-navbar :hover {
-    background-color: rgb(16, 50, 91);
+    background-color: rgb(31, 31, 31);
     transition: .3s ease-in-out;
 }
 
 .li-navbar :active {
-    background-color: rgb(10, 32, 59);
+    background-color: rgb(31, 31, 31);
     transform: scale(0.90);
 }
 
